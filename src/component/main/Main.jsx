@@ -30,7 +30,7 @@ function Main() {
   return (
     <main className="main">
       <section className="nav">
-        <p>Gemini</p>
+        <p>Jerry</p>
         <img src={User} alt="" width={"100px"} />
       </section>
       <section className="main-container">
