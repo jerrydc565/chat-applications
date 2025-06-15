@@ -168,7 +168,7 @@
   line-height: 1.8;
 }
 
-@media screen and(max-width: 480pc) {
+@media screen and (max-width: 480px) {
   .main {
     overflow-x: hidden;
   }
