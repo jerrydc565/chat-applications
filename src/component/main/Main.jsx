@@ -20,6 +20,7 @@ function Main() {
     setShowResult,
     setInput,
     input,
+    
   } = useContext(Context);
   const handleKeyEvent = (e) => {
     if (e.key === "Enter") {
@@ -27,6 +28,7 @@ function Main() {
       onSent()
     } 
 }
+
   return (
     <main className="main">
       <section className="nav">
@@ -64,7 +66,7 @@ function Main() {
                 </div>
               </div>
               <div className="cards">
-                <div className="card">
+                <div className="card gallary">
                   <p>Improve the readability of the following code</p>
                   <img src={Code} alt="" width={"50px"} />
                 </div>

@@ -175,6 +175,12 @@
   .main .nav {
     max-width: 400px;
   }
+  .main .card {
+  height: 100px;
+  margin-bottom: -30px;
+  width: 90%;
+  margin-inline:auto
+}
   .main .greet {
     margin: 50px 0px;
     font-size: 56px;
@@ -183,21 +189,24 @@
     font-weight: 500;
     max-width: 400px;
     width: 100%;
+    
   }
   .main .cards {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
     padding: 20px;
     gap: 15px;
+    
   }
   .main .all-cards {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
+    margin-top: -40px;
   }
   .search-box {
     position: sticky;
     top: 0px;
-    
+   
   }
-  
+
 }
